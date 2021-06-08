@@ -1,0 +1,113 @@
+.readingShelf {
+    margin-top: 30px;
+
+    > div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 30px;
+
+        span {
+            margin-right: 20px;
+            
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: var(--highlight-blue);
+
+            cursor: pointer;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    > div:nth-child(2) {
+        > div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            width: 93%;
+            height: 100px;
+
+            background: var(--decoration-green);
+
+            border-radius: 3px;
+
+            cursor: pointer;
+
+            > img {
+                margin-top: -13px;
+
+                height: 136px;
+            }
+
+            section {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                margin-left: 8px;
+
+                height: 100%;
+
+                padding: 10px;
+
+                h3 {
+                    margin-bottom: 6px;
+
+                    min-width: 150px;
+
+                    padding-right: 7.5px;
+
+                    font-family: "Playfair Display", serif;
+                    font-weight: 700;
+                    font-size: 2rem;
+                    line-height: 2.6rem;
+                    color: var(--decoration-gray);
+                }
+
+                h4 {
+                    font-family: "SFProDisplay-Regular", sans-serif;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    line-height: 1.2rem;
+                    color: var(--title-light-gray);
+                }
+
+                span {
+                    display: inline-flex;
+                    align-items: center;
+
+                    margin-bottom: 5px;
+
+                    font-family: "SFProDisplay-Regular", sans-serif;
+                    font-size: 1rem;
+                    font-weight: 300;
+                    line-height: 1.2rem;
+
+                    color: var(--decoration-gray);
+
+                    img {
+                        margin-right: 3px;
+
+                        width: 12px;
+                        height: 14px;
+                    }
+
+                    strong {
+                        margin-right: 3px;
+                        margin-left: 3px;
+
+                        font-size: 1.05rem;
+                        font-family: "SFProDisplay-Bold", sans-serif;
+                        font-weight: 700;
+                        color: var(--decoration-pink);
+                    }
+                }
+            }
+        }
+    }
+}

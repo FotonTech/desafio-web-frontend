@@ -1,0 +1,59 @@
+.reviewsShelf {
+    margin-top: 30px;
+    margin-right: 20px;
+
+    padding-bottom: 40px;
+
+    > div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 20px;
+
+        span {
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: var(--highlight-blue);
+
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    > div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+
+        margin-right: 20px;
+
+        width: 100%;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        > img {
+            border-radius: 5px 5px 0 0;
+        }
+
+        > div {
+            width: 100%;
+            height: 75px;
+
+            background: var(--secundary);
+            padding: 12.5px 12.5px;
+
+            border-radius: 0 0 5px 5px;
+
+            h3 {
+                font-family: "SFProDisplay-Regular", sans-serif;
+                font-size: 1.6rem;
+                color: var(--title-gray);
+            }
+        }
+    }
+}

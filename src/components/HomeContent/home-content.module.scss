@@ -1,0 +1,15 @@
+.homeContent {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: calc(78px + 30px);
+
+    padding-left: 20px;
+
+    h2 {
+        font-family: "SFProDisplay-Semibold", sans-serif;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+        color: var(--title-gray);
+    }
+}
